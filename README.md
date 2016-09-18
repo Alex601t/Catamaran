@@ -169,7 +169,7 @@ oauthController.onCancelButtonTap = ^(__weak UIViewController *weakOAuthControll
 };
     oauthController.completionBlock = ^(CATOAuthCredential *credential, NSString *errorString, __weak UIViewController *weakOAuthController)
 {
-	// dismiss and procces credential (save to user defaults or something else)
+	// dismiss and process credential (save to user defaults or something else)
 };
 [self presentViewController:[[UINavigationController alloc] initWithRootViewController:oauthController] animated:YES completion:nil];
 
