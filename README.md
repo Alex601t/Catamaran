@@ -192,5 +192,5 @@ oauthController.onCancelButtonTap = ^(__weak UIViewController *weakOAuthControll
 
 
 
-[demo]: https://github.com/Alex601t/OAuth/blob/master/Assets/Catamaran.gif 
+[demo]: https://github.com/Alex601t/Catamaran/blob/master/Assets/Catamaran.gif
 [platform]: https://img.shields.io/badge/platform-iOS-brightgreen.svg
