@@ -191,10 +191,9 @@ oauthController.onCancelButtonTap = ^(__weak UIViewController *weakOAuthControll
 
 # Contacts
 
- - Website: ![osLink]
+ - Website: [Orangesoft](http://www.orangesoft.by)
  - Email: `hello@orangesoft.by`
 
 
 [demo]: https://github.com/Alex601t/Catamaran/blob/master/Assets/Catamaran.gif
 [platform]: https://img.shields.io/badge/platform-iOS-brightgreen.svg
-[osLink]: http://www.orangesoft.by/
