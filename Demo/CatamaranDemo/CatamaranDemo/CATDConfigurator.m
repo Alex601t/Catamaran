@@ -102,4 +102,16 @@
     return @"#########################################";
 }
 
+- (NSString *)gitHubApplicationID {
+    return @"#";
+}
+
+- (NSString *)gitHubApplicationSecret {
+    return @"#";
+}
+
+- (NSString *)gitHubScope {
+    return @"public_repo";
+}
+
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B74136F1F8B7800006D84B7 /* CATGitHubAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B74136E1F8B7800006D84B7 /* CATGitHubAppearance.m */; };
+		3B7413721F8B7B53006D84B7 /* CATGitHubOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7413701F8B7B52006D84B7 /* CATGitHubOAuth.m */; };
 		A82D18E51CC2C1E9002F9CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A82D18E41CC2C1E9002F9CEB /* main.m */; };
 		A82D18E81CC2C1E9002F9CEB /* CATDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A82D18E71CC2C1E9002F9CEB /* CATDAppDelegate.m */; };
 		A82D18EE1CC2C1E9002F9CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82D18EC1CC2C1E9002F9CEB /* Main.storyboard */; };
@@ -43,6 +45,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B74136D1F8B7800006D84B7 /* CATGitHubAppearance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATGitHubAppearance.h; sourceTree = "<group>"; };
+		3B74136E1F8B7800006D84B7 /* CATGitHubAppearance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATGitHubAppearance.m; sourceTree = "<group>"; };
+		3B7413701F8B7B52006D84B7 /* CATGitHubOAuth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATGitHubOAuth.m; sourceTree = "<group>"; };
+		3B7413711F8B7B53006D84B7 /* CATGitHubOauth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATGitHubOauth.h; sourceTree = "<group>"; };
 		A82D18E01CC2C1E9002F9CEB /* CatamaranDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatamaranDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82D18E41CC2C1E9002F9CEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A82D18E61CC2C1E9002F9CEB /* CATDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATDAppDelegate.h; sourceTree = "<group>"; };
@@ -122,6 +128,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B7413691F8B77C0006D84B7 /* GitHub */ = {
+			isa = PBXGroup;
+			children = (
+				3B7413711F8B7B53006D84B7 /* CATGitHubOauth.h */,
+				3B7413701F8B7B52006D84B7 /* CATGitHubOAuth.m */,
+				3B74136D1F8B7800006D84B7 /* CATGitHubAppearance.h */,
+				3B74136E1F8B7800006D84B7 /* CATGitHubAppearance.m */,
+			);
+			path = GitHub;
+			sourceTree = "<group>";
+		};
 		A82D18D71CC2C1E9002F9CEB = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +224,7 @@
 				A82D19281CC2C1F8002F9CEB /* OK */,
 				A82D192E1CC2C1F8002F9CEB /* VK */,
 				A82D19331CC2C1F8002F9CEB /* Yandex */,
+				3B7413691F8B77C0006D84B7 /* GitHub */,
 			);
 			name = SocialNetworks;
 			path = Logic/SocialNetworks;
@@ -367,7 +385,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CATD;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Orangesoft LLC";
 				TargetAttributes = {
 					A82D18DF1CC2C1E9002F9CEB = {
@@ -418,6 +436,7 @@
 				A82D19471CC2C1F8002F9CEB /* CATFoursquareAppearance.m in Sources */,
 				A82D19571CC2C1F8002F9CEB /* CATSocialOAuthFactory.m in Sources */,
 				A82D19621CC2C81F002F9CEB /* CATDConfigurator.m in Sources */,
+				3B7413721F8B7B53006D84B7 /* CATGitHubOAuth.m in Sources */,
 				A82D19591CC2C1F8002F9CEB /* CATOAuthController.m in Sources */,
 				A82D19421CC2C1F8002F9CEB /* CATOAuthResponseParser.m in Sources */,
 				A82D19541CC2C1F8002F9CEB /* CATVKOAuth.m in Sources */,
@@ -437,6 +456,7 @@
 				A82D19551CC2C1F8002F9CEB /* CATYandexOAuth.m in Sources */,
 				A82D19451CC2C1F8002F9CEB /* CATFacebookAppearance.m in Sources */,
 				A82D18E81CC2C1E9002F9CEB /* CATDAppDelegate.m in Sources */,
+				3B74136F1F8B7800006D84B7 /* CATGitHubAppearance.m in Sources */,
 				A82D194D1CC2C1F8002F9CEB /* CATLinkedInAppearance.m in Sources */,
 				A82D18E51CC2C1E9002F9CEB /* main.m in Sources */,
 				A82D19411CC2C1F8002F9CEB /* CATOAuthManager.m in Sources */,
@@ -475,13 +495,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -519,13 +547,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -553,7 +589,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CatamaranDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = by.orangesoft.CatamaranDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -565,7 +601,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CatamaranDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = by.orangesoft.CatamaranDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

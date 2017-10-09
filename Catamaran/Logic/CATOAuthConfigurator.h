@@ -35,4 +35,8 @@
 - (NSString *)mailRuApplicationID;
 - (NSString *)mailRuScope;
 
+- (NSString *)gitHubApplicationID;
+- (NSString *)gitHubApplicationSecret;
+- (NSString *)gitHubScope;
+
 @end

@@ -54,6 +54,9 @@
             
         case OSOAuthTypeLinkedIn:
             return [CATLinkedInOAuth OAuthWithClientID:[self.configurator linkedInApplicationID] clientSecret:[self.configurator linkedInScope] responseType:@"code" redirectURI:redirectURI scope:[self.configurator linkedInScope]];
+            
+        case OSOAuthTypeGitHub:
+            return [CATGitHubOAuth OAuthWithClientID:[self.configurator gitHubApplicationID] clientSecret:[self.configurator gitHubApplicationSecret] responseType:@"code" redirectURI:redirectURI scope:[self.configurator gitHubScope]];
     }
 }
 
