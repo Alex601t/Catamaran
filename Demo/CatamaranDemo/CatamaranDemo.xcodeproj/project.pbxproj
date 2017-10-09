@@ -48,7 +48,7 @@
 		3B74136D1F8B7800006D84B7 /* CATGitHubAppearance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATGitHubAppearance.h; sourceTree = "<group>"; };
 		3B74136E1F8B7800006D84B7 /* CATGitHubAppearance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATGitHubAppearance.m; sourceTree = "<group>"; };
 		3B7413701F8B7B52006D84B7 /* CATGitHubOAuth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATGitHubOAuth.m; sourceTree = "<group>"; };
-		3B7413711F8B7B53006D84B7 /* CATGitHubOauth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATGitHubOauth.h; sourceTree = "<group>"; };
+		3B7413711F8B7B53006D84B7 /* CATGitHubOAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATGitHubOAuth.h; sourceTree = "<group>"; };
 		A82D18E01CC2C1E9002F9CEB /* CatamaranDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatamaranDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82D18E41CC2C1E9002F9CEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A82D18E61CC2C1E9002F9CEB /* CATDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATDAppDelegate.h; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		3B7413691F8B77C0006D84B7 /* GitHub */ = {
 			isa = PBXGroup;
 			children = (
-				3B7413711F8B7B53006D84B7 /* CATGitHubOauth.h */,
+				3B7413711F8B7B53006D84B7 /* CATGitHubOAuth.h */,
 				3B7413701F8B7B52006D84B7 /* CATGitHubOAuth.m */,
 				3B74136D1F8B7800006D84B7 /* CATGitHubAppearance.h */,
 				3B74136E1F8B7800006D84B7 /* CATGitHubAppearance.m */,

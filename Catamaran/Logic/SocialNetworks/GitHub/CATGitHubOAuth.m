@@ -1,4 +1,4 @@
-#import "CATGitHubOAuth.h"
+#import "CATGitHubOauth.h"
 #import "CATGitHubAppearance.h"
 
 @implementation CATGitHubOAuth
