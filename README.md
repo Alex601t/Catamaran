@@ -6,7 +6,7 @@
 
 # Catamaran
 
-An easy way to get Social Newtworks authenticating by <b>OAuth 2.0</b> on Objective-C via `UIWebView`
+An easy way to get Social Networks authenticating by <b>OAuth 2.0</b> on Objective-C via `UIWebView`
 
 ## Supported Social Newtworks
 
@@ -19,10 +19,11 @@ An easy way to get Social Newtworks authenticating by <b>OAuth 2.0</b> on Object
 ![Image](Assets/ok-logo.png "Image")
 ![Image](Assets/yandex-logo.png "Image")
 ![Image](Assets/vk-logo.png "Image")
+![Image](Assets/github-logo.png "Image")
 
 # How to use Catamaran ?
 
-## Via Supported Social Newtworks
+## Via Supported Social Networks
 
 #### Step 1
 
@@ -95,7 +96,7 @@ OAuthCredential *credential = [[OAuthManager manager] credentialByResponse:respo
 
 `OAuthCredential` supporting `NSCoding` protocol, you can save `OAuthCredential` object to Keychain, NSUserDefault and etc.
 
-# Via custom Social Newtworks
+# Via custom Social Networks
 
 #### Step 1
 
