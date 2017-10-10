@@ -2,7 +2,7 @@
 #import "CATOAuthAppearance.h"
 #import "CATOAuthCredential.h"
 
-typedef void (^SocialOAuthAuthorizeHandler)();
+typedef void (^SocialOAuthAuthorizeHandler)(void);
 typedef void (^SocialOAuthAuthorizeCompletionBlock)(CATOAuthCredential *credential, NSString *errorString);
 
 @interface CATSocialOAuth : NSObject

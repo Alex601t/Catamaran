@@ -119,10 +119,13 @@
     };
     self.socialOAuth.authorizeCompletionBlock = ^(CATOAuthCredential *credential, NSString *errorString)
     {
-        if(wself.completionBlock)
+        dispatch_async(dispatch_get_main_queue(), ^
         {
-            wself.completionBlock(credential, errorString, wself);
-        }
+            if(wself.completionBlock)
+            {
+                wself.completionBlock(credential, errorString, wself);
+            }
+        });
     };
     [self.view.activityIndicatorView startAnimating];
     [wself.socialOAuth authorize];

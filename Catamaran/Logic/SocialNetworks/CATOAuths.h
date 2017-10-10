@@ -7,3 +7,4 @@
 #import "CATMailRuOAuth.h"
 #import "CATLinkedInOAuth.h"
 #import "CATFoursquareOAuth.h"
+#import "CATGitHubOAuth.h"

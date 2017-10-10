@@ -12,6 +12,7 @@ typedef NS_ENUM(NSUInteger, OSOAuthType)
     OSOAuthTypeFoursquare,
     OSOAuthTypeYandex,
     OSOAuthTypeMailRu,
+    OSOAuthTypeGitHub
 };
 
 @class CATSocialOAuth;

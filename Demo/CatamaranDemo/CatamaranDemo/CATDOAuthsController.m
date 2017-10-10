@@ -28,7 +28,7 @@
     CATSocialOAuthFactory *factory = [[CATSocialOAuthFactory alloc] initWithConfigurator:[CATDConfigurator new]];
     NSMutableArray *socialNetowkrs = [NSMutableArray array];
     
-    for(NSUInteger oauthIndex = 0; oauthIndex < OSOAuthTypeMailRu + 1; oauthIndex++)
+    for(NSUInteger oauthIndex = 0; oauthIndex < OSOAuthTypeGitHub + 1; oauthIndex++)
     {
         [socialNetowkrs addObject:[factory OAuthByType:oauthIndex]];
     }

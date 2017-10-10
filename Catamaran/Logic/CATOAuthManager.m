@@ -31,6 +31,21 @@
                     #endif
                 }
             }
+            else if ([responseContentType containsString:@"application/x-www-form-urlencoded"])
+            {
+                NSString *stringResponse = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+                NSArray *items = [stringResponse componentsSeparatedByString:@"&"];
+                NSMutableDictionary *mResponse = [NSMutableDictionary dictionary];
+                for (NSString *item in items)
+                {
+                    NSArray *currentItem = [item componentsSeparatedByString:@"="];
+                    if (currentItem.count == 2)
+                    {
+                        mResponse[currentItem.firstObject] = currentItem.lastObject;
+                    }
+                }
+                response = mResponse.copy;
+            }
             else
             {
                 #if DEBUG
