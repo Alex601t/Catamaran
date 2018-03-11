@@ -53,7 +53,7 @@
             return [CATOKOAuth OAuthWithClientID:[self.configurator okApplicationID] clientSecret:[self.configurator okApplicationSecret] responseType:@"code" redirectURI:redirectURI scope:[self.configurator okScope]];
             
         case OSOAuthTypeLinkedIn:
-            return [CATLinkedInOAuth OAuthWithClientID:[self.configurator linkedInApplicationID] clientSecret:[self.configurator linkedInScope] responseType:@"code" redirectURI:redirectURI scope:[self.configurator linkedInScope]];
+            return [CATLinkedInOAuth OAuthWithClientID:[self.configurator linkedInApplicationID] clientSecret:[self.configurator linkedInApplicationSecret] responseType:@"code" redirectURI:redirectURI scope:[self.configurator linkedInScope]];
             
         case OSOAuthTypeGitHub:
             return [CATGitHubOAuth OAuthWithClientID:[self.configurator gitHubApplicationID] clientSecret:[self.configurator gitHubApplicationSecret] responseType:@"code" redirectURI:redirectURI scope:[self.configurator gitHubScope]];
